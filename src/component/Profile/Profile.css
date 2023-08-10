@@ -1,0 +1,144 @@
+
+  .blink {
+    animation: blink-animation 1s infinite;
+  }
+  
+  @keyframes blink-animation {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /*  */
+  
+  /*  */
+  .form {
+    float:left;
+    position: relative;
+    right: 120%;
+    top: -110px;
+    width:400px;
+  }
+  .form {
+    margin-top: 20px;
+    align-items: center;
+    border: 1px solid rgb(207, 206, 206);
+    background-color: rgb(11, 12, 12);
+    padding: 20px;
+    border-style: double;
+    column-gap: 5px;
+    font-weight: 700;
+    border-radius: 20px;
+  }
+  
+  
+  .profile-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    column-gap: 50%;
+    row-gap: 50%;
+  }
+
+  .profiless{
+    height: 250px;
+    width: 300px;
+   
+
+  }
+  
+  .form {
+    width: 400px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  
+  .form-label {
+    font-weight: bold;
+    
+  }
+  .form-label input {
+   color: #d32222;
+  }
+  
+  .form-input {
+    padding: 8px;
+    background-color: 1px solid #d32222;
+    border-radius: 4px;
+    border-color: black;
+    
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* .form-button:hover {
+    background-color: #45a049;
+  } */
+  
+
+  @media only screen and (max-width: 767px) {
+    .profile-form-container {
+      display: block;
+      left :30px;
+
+    }
+
+
+   
+
+    .form {
+      width: 250px;
+      height: auto;
+      position: relative;
+      left :30px;
+      top: -380px;
+    }
+    
+
+  }
+
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .profile-form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      column-gap: 50%;
+      row-gap: 50%;
+    }
+
+    .form {
+      width: 350px;
+      height: auto;
+      margin-left: 30px;
+      
+    }
+  }

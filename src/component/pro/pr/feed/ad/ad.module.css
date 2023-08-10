@@ -1,0 +1,25 @@
+.marquee {
+    animation: marquee 15s linear infinite;
+    white-space: nowrap;
+    font-size: 30px;
+  }
+  
+  @keyframes marquee {
+    /* 80% {
+      transform: translatey(80%);
+    }
+    50% {
+      transform: translatey(-80%);
+    } */
+    from {
+        margin-top: 300px;
+        transform: translatey(-80%);
+        
+        
+    }
+  to {
+    transform: translatey(80%);
+  
+}
+  }
+  

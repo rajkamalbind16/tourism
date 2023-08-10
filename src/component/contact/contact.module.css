@@ -1,0 +1,133 @@
+.container{
+font-family: Bookman;
+height: 300px;
+width: 100%;
+font-size: 17px;
+text-align: left;
+padding: 10px;
+background-color: white;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container>h1,.container> p{
+    margin: 40px 200px;
+}
+
+.containers{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+.line{
+    height: 5px;
+    width: 100px;
+    background-color: red;
+    margin-left: 200px;
+}
+.linea{
+    height: 5px;
+    width: 100px;
+    background-color: red;
+ 
+}
+.contain{
+    font-family: Bookman;
+    width: 80%;
+    height: 750px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: rgb(242,242,242);
+    padding: 10px 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin: auto;
+    color: black;
+}
+.main{
+   
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: left;
+    font-size: 17px;
+}
+.inp{
+    display: flex;
+   gap: 400px;
+   margin-top: 50px;
+}
+.inp>div>input{
+ padding: 20px;
+ width: 150%;
+ border-radius: 10px;
+ border: none;
+ box-shadow: inset 3px 3px 6px #bfc3cf,inset -3px -3px 6px #fff;
+
+}
+.text{
+    padding: 20px;
+    width: 92%;
+    border-radius: 10px;
+}
+.btn{
+    padding: 20px;
+    width: 250px;
+    background-color: red;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.supportDivContactsmains{
+    margin-top: 10px;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 15px;
+
+}
+
+.supportDivContacts{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    font-size: 15px;
+    padding: 4px 10px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    /* Styles for mobile devices */
+    /* ... Your CSS styles for mobile devices here ... */
+
+    .supportDivContactsmains{
+        margin-top: 10px;
+        width: 93%;
+        margin: auto;
+        background-color: white;
+        color: black;
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 15px;
+    
+    }
+
+    .inp>div>input{
+        padding: 20px;
+        width: 250px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: inset 3px 3px 6px #bfc3cf,inset -3px -3px 6px #fff;
+    }       
+  }

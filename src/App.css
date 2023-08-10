@@ -1,0 +1,90 @@
+body {
+  background-color: white; /* Set the background color of the body to black */
+  background: rgb(63,215,251);
+  background-image: linear-gradient(to right top, #cd0f7b, #e63d5a, #ea6c3f, #df9633, #cabc46, #bbca50, #a7d860, #8fe576, #7de46b, #67e260, #4ce156, #1bdf4c);
+}
+
+.App {
+  text-align: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Add position relative to create a stacking context */
+  z-index: 1; /* Set a positive z-index to place it above the black background */
+  overflow: hidden; /* Add overflow property to hide overflowing content */
+  background-image: linear-gradient(to right top, #cd0f7b, #e63d5a, #ea6c3f, #df9633, #cabc46, #bbca50, #a7d860, #8fe576, #7de46b, #67e260, #4ce156, #1bdf4c);
+}
+
+@media (min-width: 1600px) {
+  .App {
+    border-left: solid black;
+    border-right: solid black;
+    border-width: 1px;
+    box-sizing: border-box;
+  }
+}
+
+body::before,
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: calc((100% - 1600px) / 2); /* Calculate the width of the black screen on each side */
+  background-color: black;
+  z-index: 0; /* Set a negative z-index to place the black screen behind the content */
+}
+
+body::before {
+  left: 0;
+}
+
+body::after {
+  right: 0;
+}
+
+
+/* .App {
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  
+} */
+
+/* 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #020305;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #000708;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

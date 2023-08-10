@@ -1,0 +1,450 @@
+/* .main{
+   
+    height: 800px;
+    width: 80%;
+    margin: auto;
+    background-image: url("https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.webp");
+} */
+.grad{
+  width: 100%;
+  
+  /* background-image: url("../image/gradient.gif");
+  background-repeat: no-repeat;
+  background: rgb(34,193,195); */
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 50%,rgb(76, 253, 45));
+
+}
+.container{
+    font-family: 	Rockwell Extra Bold;
+    margin-top: 150px;
+   
+
+}
+.main>input{
+    padding: 20px;
+    width: 65%;
+    border-radius: 20px;
+    position: relative;
+    bottom: 400px;
+    z-index: 5;
+    
+}
+.ways{
+
+    width: 80%;
+    height: 800px;
+    margin: auto;
+}
+.ways>div{
+    text-align: left;
+}
+/* .destination{
+  
+    
+height: 84%;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+} */
+.destination>div{
+   
+    height: 95%;
+    width: 90%;
+
+
+}
+.upper{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 60%;
+    width: 100%;
+}
+.downer{
+ 
+    height: 40%;
+    width: 100%;
+}
+.downer>div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.list{
+   
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+.list>div{
+    
+    width: 50%;
+    height: 100%;
+}
+.lefta{
+    background-color: rgb(250,241,237);
+}
+.text{
+    margin-top: 100px;
+}
+.text>button{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.ink{
+    text-decoration: none;
+}
+
+
+
+
+.swiper {
+    margin: 0;
+    padding: 0;
+      width: 100%;
+      height: 300px;
+      border-radius: 25px;
+  
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      border:1.5px solid black;
+      border-radius: 25px;
+      
+      
+    }
+    
+    .swiper-slide img {
+      display: block;
+      width: 99.5%;
+      height: 500px;
+      object-fit: fill;
+      border-radius: 25px;
+
+    }
+    .swiper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .mySwiper{
+      width: 100%;
+    }
+    .imgs{
+        width: 300px;
+        height: 300px;
+    }
+    .mys{
+        width: 300px;
+        height: 300px;
+        
+    }
+    .cardimg{
+        /* flex-wrap: wrap; */
+        max-width: 300px;
+        gap: 40px;
+        display: flex;
+        height: 300px;
+    }
+    .scroll{
+        width: 300px;
+        gap: 60px;
+       margin: auto;
+        height: 300px;
+    }
+    /* .scontainer{
+        max-width:300px;
+        gap: 50px;
+        display: flex;
+        right:70px;
+    } */
+    .lastcard{
+        gap: 70px;
+        margin: auto;
+        width: 80%;
+        
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .lastcard>div{
+        margin-top: 190px;
+    }
+    .slide{
+        position: relative;
+         height: 700px;
+         
+         
+    }
+    .textContainer .carouselTextPrice {
+        margin-bottom: 50%;
+      }
+  
+    @media only screen and (max-width: 1420px) and (min-width: 1081px) {
+        .lastcard{
+            gap:2%;
+            margin: auto;
+            width: 100%;
+            
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        
+          .swiper {
+            margin: 0;
+            padding: 0;
+              width: 100%;
+              height: 300px;
+              border-radius: 25px;
+          
+              box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            }
+    }
+    @media only screen and (max-width: 1080px) and (min-width: 971px) {
+        .lastcard{
+            gap:2%;
+            margin: auto;
+            width: 100%;
+            
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        
+          .swiper {
+            margin: 0;
+            padding: 0;
+              width: 100%;
+              height: 300px;
+              border-radius: 25px;
+          
+              box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            }
+      }
+      /* @media (max-width: 970px) {
+        .textContainer {
+         
+          justify-content: flex-end;
+        }
+        .textContainer .carouselTextName,
+        .textContainer .carouselTextPrice {
+          margin-left: 120%;
+        }
+      } */
+      /* @media (max-width: 760px) {
+        .textContainer {
+         
+          justify-content: flex-end;
+        }
+        .textContainer .carouselTextName,
+        .textContainer .carouselTextPrice {
+          margin-left: 90%;
+        }
+      } */
+      /* @media (max-width: 650px) {
+        .textContainer {
+         
+          justify-content: flex-end;
+        }
+        .textContainer .carouselTextName,
+        .textContainer .carouselTextPrice {
+          margin-left: 60%;
+        }
+      } */
+      
+    @media only screen and (max-width: 970px) and (min-width: 451px) {
+        /* .scroll{
+            right: -80%;
+        } */
+        .lastcard{
+            gap: 70px;
+            margin: auto;
+            width: 100%;
+            
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+          .swiper {
+            margin: 0;
+            padding: 0;
+              width: 100%;
+              height: 300px;
+              border-radius: 25px;
+              box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            }
+            .scroll3BtnDiv{
+                left: -90px;
+            }
+            .container{
+              margin-top: 350px;
+            }
+    }
+    @media only screen and (max-width: 450px) and (min-width: 301px) {
+        /* .scroll{
+            right: -50%;
+        } */
+        .lastcard{
+            gap: 70px;
+            margin: auto;
+            width: 100%;
+            
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        /* .scroll{
+            width: 200px;
+            gap: 60px;
+           
+            height: 250px;
+        } */
+          .swiper {
+            margin: 0;
+            padding: 0;
+              width: 100%;
+              height: 300px;
+              border-radius: 25px;
+          
+              box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            }
+            .scroll3BtnDiv{
+                left: -90px;
+            }
+    }
+    @media only screen and (max-width: 300px) and (min-width: 151px) {
+        /* .scroll{
+            right: -25%;
+        } */
+        .lastcard{
+            gap: 70px;
+            margin: auto;
+            width: 100%;
+            
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .textContainer{
+            font-size: 65%;
+        }
+        .carouselTextPrice{
+            font-size: 85%;
+        }
+        /* .scroll{
+            width: 150px;
+            gap: 60px;
+           
+            height: 150px;
+        } */
+          .swiper {
+            margin: 0;
+            padding: 0;
+              width: 100%;
+              height: 300px;
+              border-radius: 25px;
+          
+              box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            }
+            .scroll3BtnDiv{
+                left: -90px;
+            }
+    }
+
+        /* @media only screen and (max-width: 400px) and (min-width: 100px) {
+            .scroll{
+                right: 90%;
+            }
+            .cardimg{
+                /* flex-wrap: wrap; */
+                /* max-width: 100px;
+                gap: 40px;
+                display: flex;
+                height: 200px;}
+            }  */
+    /* @media only screen and (max-width: 520px) and (min-width: 100px) {
+        .scroll{
+            right: -50%;
+        }} */
+    @media only screen and (max-width: 400px) and (min-width: 100px) {
+        .lastcard{
+            gap: 70px;
+            margin: auto;
+            width: 80%;
+            
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .mySwiper{
+            width: 99%;
+          }
+        .list{
+            display: block;
+        }
+        .list>div{
+    
+            width: 100%;
+            height: 50%;
+        }
+        .swiper {
+            margin: 0;
+            padding: 0;
+              width: 99%;
+              height: 300px;
+              border-radius: 25px;
+          
+              box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            }
+            .hides{
+                display: none;
+            }
+            .slide{
+                position: relative;
+                 height: 400px;
+                 
+            }
+            .container{
+              margin-top: 300px;
+            }
+    }
+    @media only screen and (max-width: 1420px) and (min-width: 770px){
+      .container{
+        margin-top: 1100px;
+      }
+    }
+
+
+
+    .socialIcons{
+      display: block;
+     /* position: sticky; */
+      /* border: 3px solid red; */
+
+
+      position: fixed;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 9999;
+    }
+
+    .socialIcons a{
+      height: 30px;
+      width: 30px;
+      text-decoration: none;
+
+     margin: 25px;
+      font-size: 54px;
+      /* margin-bottom: 10px; */
+      display: block;
+      
+    }
+
+    .myInsta{
+      background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+
+  
+text-decoration: none;
+}
+
+
+.socialIcons a:hover{
+  transition: 0.3s;
+  transform: scale(1.2);
+}

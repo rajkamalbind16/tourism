@@ -1,0 +1,157 @@
+.about-contain{
+  width: 90%;
+  margin-left: auto;
+}
+
+
+.div1{
+    display: flex
+}
+
+.AboutIconss{
+    height: 100px;
+    width: 100px;
+}
+
+.div3{
+    display: flex;
+
+}
+
+.bullet{
+    height: 250px;
+    width: 650px;
+    font-size: 20px;
+}
+
+#bullets{
+list-style-image: url('./iconss/bulletStyle.png');
+text-align: left;
+gap: 3px;
+margin-top: 20px;
+}
+
+.line{
+height: 250px;
+width: 3px;
+background-color: red;
+}
+
+
+.article{
+font-size: 20px;
+width: 650px;
+text-align: left;
+margin-left: 10px;
+}
+
+
+
+.progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 20px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    transition: width 0.5s;
+  }
+
+  .OurTeam{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #team{
+    height: 150px;
+    width: 150px;
+  }
+
+  #para{
+    font-size: 18px;
+    color: rgb(85, 83, 83);
+  }
+
+
+
+  @media only screen and (max-width: 767px) {
+
+    .div1{
+        display: block
+    }
+
+    .div3{
+        display: block;
+    
+    }
+
+    .line{
+        display:none;
+        }
+
+        .OurTeam{
+            display: block;
+            justify-content: space-around;
+          }
+
+
+          .bullet{
+            width: 100%;
+            font-size: 18px;
+          }
+          .article{
+            font-size: 20px;
+            width: 100%;
+            text-align: left;
+            }
+
+
+   
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .div1{
+        display: flex
+
+    }
+
+    #bullets{
+        list-style-image: url('./iconss/bulletStyle.png');
+        text-align: left;
+        gap: 3px;
+        margin-top: 20px;
+        }
+
+    .article{
+        font-size: 20px;
+        width: 650px;
+        text-align: left;
+        margin-left: 10px;
+        }
+
+        .div3{
+            display: block;
+        
+        }
+    
+        .line{
+            display:none;
+            }
+    
+            .OurTeam{
+                display: block;
+                justify-content: space-around;
+              }
+  }
+  
+  
+  

@@ -1,0 +1,24 @@
+/* nightMode.css */
+.dayButton {
+  background-color: yellow;
+  color: white;
+  /* Add any other styles for the day mode button */
+}
+
+.nightButton {
+  background-color: yellow;
+  color: white;
+  /* Add any other styles for the night mode button */
+}
+
+body {
+  background-color: white;
+  color: white;
+  /* Set the default background color of the body to white */
+}
+
+body.dark-mode {
+  background-color: black;
+  color: white;
+  /* Set the background color of the body to black in dark mode */
+}

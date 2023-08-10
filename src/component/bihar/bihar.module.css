@@ -1,0 +1,285 @@
+.container{
+    color:black;
+     width: 100%;
+     font-family: 	Rockwell Extra Bold;
+ 
+ }
+ 
+ .text>h1{
+     color: rgb(26, 19, 19);
+     font-size: 50px;
+ }
+ .tour{
+     color:black;
+     width: 80%;
+     height: 500px;
+     margin: auto;
+     text-align: justify;
+ }
+ .about{
+     width: 100%;
+     height: 80%;
+     color:black;
+    display: flex;
+    justify-content: space-between;
+    font-family: 	Rockwell Extra Bold;
+    font-size: 18px;
+    text-align: justify;
+ }
+ .about>div{
+ 
+     width: 47%;
+     height: 100%;
+     text-align: left;
+ }
+ .ad{
+     width: 80%;
+     /* height: 450px; */
+     color:black;
+    display: flex;
+    justify-content: space-between;
+    font-family: 	Rockwell Extra Bold;
+    font-size: 18px;
+    margin: auto;
+ }
+ .ad>div{
+ 
+     width: 47%;
+     /* height: 100%; */
+     text-align: left;
+ }
+ .textt{
+     height: 60%;
+    
+     width: 90%;
+     margin: auto;
+     margin-top: 60px;
+ }
+ .abouta{
+     color: black;
+     width: 80%;
+     font-family: 	Rockwell Extra Bold;
+     margin: auto;
+     text-align: left;
+     font-size: 20px;
+ }
+ .places{
+   
+     width: 80%;
+  
+     justify-content: space-around;
+ }
+ .places>button{
+    background-color: aqua;
+    color: rgb(8, 35, 241);
+     margin-left: 10px;
+     border-radius: 20px;
+     cursor: pointer;
+ }
+ .places>button:hover{
+     background-color: rgb(226, 233, 233);
+     color: rgb(12, 13, 14);
+      margin-left: 10px;
+      border-radius: 20px;
+      cursor: pointer;
+  }
+ 
+  
+ @media only screen and (max-width: 500px) and (min-width: 100px) {
+     
+     .slidem{
+         width: 98%;
+         margin: auto;
+   
+         height: 250px;
+      }
+     .about{
+         width: 100%;
+         height: 80%;
+         text-align: justify;
+        display: block;
+        justify-content: space-between;
+        font-family: 	Rockwell Extra Bold;
+        font-size: 18px;
+     }
+     .about>div{
+         text-align: justify;
+         width: 100%;
+         height: 50%;
+         /* text-align: left; */
+     }
+     .tour{
+         text-align: justify;
+         width: 80%;
+         height: 1000px;
+         margin: auto;
+     }
+     .ad{
+         width: 80%;
+         /* height: 900px; */
+         text-align: justify;
+        display: block;
+        justify-content: space-between;
+        font-family: 	Rockwell Extra Bold;
+        font-size: 18px;
+        margin: auto;
+     }
+     .ad>div{
+         text-align: justify;
+         width: 100%;
+         height: 50%;
+         /* text-align: left; */
+     }
+     .places{
+         margin: auto;
+   align-items: center;
+         width: 80%;
+      display: block;
+         justify-content: space-around;
+     }
+     .places>button{
+         width: 200px;
+         margin-top: 5px;
+         background-color: aqua;
+         color: rgb(8, 35, 241);
+         
+          border-radius: 20px;
+          cursor: pointer;
+      }
+      .andhraimg{
+         height: 300px;
+         margin-top: 50px;
+      }
+    
+ }
+ 
+ /* @media only screen and (max-width: 1420px) and (min-width: 1081px) {
+     .slidem{
+         width: 98%;
+         margin: auto;
+         margin-left: -355px;
+       
+      }
+   
+ } */
+ /* @media only screen and (max-width: 1080px) and (min-width: 971px) {
+     .slidem{
+         width: 98%;
+         margin: auto;
+         margin-left: -285px;
+       
+      }
+   }
+   @media (max-width: 970px) and (min-width: 761px) {
+     .slidem{
+         width: 98%;
+         margin: auto;
+         margin-left: -915px;
+       
+      }
+   } */
+   @media (max-width: 760px) {
+     
+   }
+   @media (max-width: 650px) {
+    
+   }
+   
+ @media only screen and (max-width: 970px) and (min-width: 451px) {
+     
+     
+     
+ }
+ @media only screen and (max-width: 450px) and (min-width: 301px) {
+   
+     
+ }
+ @media only screen and (max-width: 300px) and (min-width: 151px) {
+   
+     
+ }
+ 
+     @media only screen and (max-width: 400px) and (min-width: 100px) {
+        
+         }
+ @media only screen and (max-width: 520px) and (min-width: 100px) {
+    }
+ @media only screen and (max-width: 400px) and (min-width: 100px) {
+    
+   
+         
+ }
+ 
+ 
+ 
+ 
+ 
+ @media only screen and (max-width: 1420px) and (min-width: 1081px) {
+   
+ }
+ @media only screen and (max-width: 1080px) and (min-width: 971px) {
+    
+   }
+   @media (max-width: 970px) {
+    
+   }
+   @media (max-width: 760px) {
+     
+   }
+   @media (max-width: 650px) {
+    
+   }
+   
+ @media only screen and (max-width: 970px) and (min-width: 451px) {
+     
+     
+     
+ }
+ @media only screen and (max-width: 450px) and (min-width: 301px) {
+   
+     
+ }
+ @media only screen and (max-width: 300px) and (min-width: 151px) {
+   
+     
+ }
+ 
+     @media only screen and (max-width: 400px) and (min-width: 100px) {
+        
+         }
+ @media only screen and (max-width: 520px) and (min-width: 100px) {
+    }
+ @media only screen and (max-width: 400px) and (min-width: 100px) {
+    
+   
+         
+ }
+ @media only screen and (max-width: 1620px) and (min-width: 1421px) {
+     .swiper {
+       right: -10%;
+      
+     }
+ }
+ @media only screen and (max-width: 970px) and (min-width: 760px) {
+   .swiper {
+     right: -100%;
+    
+   }
+ }
+ @media only screen and (max-width: 760px) and (min-width: 650px) {
+   .swiper {
+     right: -80%;
+    
+   }
+ }
+ @media only screen and (max-width: 650px) and (min-width: 100px) {
+   .swiper {
+     right: -40%;
+    
+   }
+ }
+ @media only screen and (max-width: 520px) and (min-width: 100px) {
+   .swiper {
+     right: -10%;
+    
+   }}
